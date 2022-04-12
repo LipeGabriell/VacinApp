@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sintomas">
+
+    <ImageView
+        android:id="@+id/unisalogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/unisagra_app_foreground" />
+
+    <ScrollView
+        android:id="@+id/scrollPrevencoes"
+        android:layout_width="10dp"
+        android:layout_height="73dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="@+id/textoSintomas"
+        app:layout_constraintTop_toTopOf="@+id/textoSintomas">
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/titleSintomas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="148dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/sintomas"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:translationZ="1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleSintomasShade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="148dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/sintomas"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textoSintomas"
+        android:layout_width="364dp"
+        android:layout_height="374dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="43dp"
+        android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_integer_id_semper_lacus_a_euismod_nulla_vivamus_aliquam_sodales_est_at_viverra_ante_consequat_a_maecenas_euismod_risus_quam_id_dapibus_libero_sollicitudin_ac_donec_a_sollicitudin_magna_tempus_sodales_magna_nullam_vitae_maximus_turpis_mauris_eu_mi_in_turpis_commodo_auctor_ut_tincidunt_lectus_vestibulum_vestibulum_viverra_elit_in_sollicitudin_ut_eu_odio_sapien_morbi_lobortis_orci_non_blandit_posuere_quam_nisi_volutpat_enim_et_malesuada_mauris_augue_ut_urna_etiam_maximus_ultrices_pretium_aenean_ante_ligula_fermentum_at_accumsan_at_blandit_quis_sem_quisque_tortor_massa_iaculis_ac_malesuada_in_egestas_non_ipsum_nunc_varius_cursus_vestibulum_duis_id_neque_quis_metus_cursus_pulvinar_id_blandit_massa_duis_vitae_magna_nec_libero_tempor_sollicitudin_sit_amet_eget_tortor_sed_a_mauris_elementum_pulvinar_eros_eu_commodo_purus_nam_id_eleifend_leo_aliquam_euismod_eros_sed_blandit_malesuada_nulla_quis_arcu_a_risus_pharetra_lacinia_phasellus_eget_dolor_leo_suspendisse_lorem_velit_luctus_egestas_suscipit_vitae_tristique_non_lorem_vivamus_a_purus_quis_leo_consequat_commodo_etiam_interdum_enim_scelerisque_nunc_semper_a_sollicitudin_nulla_pellentesque_quisque_ut_ornare_ligula_ac_mattis_purus_etiam_congue_ipsum_non_viverra_pellentesque_suspendisse_et_lacus_vel_est_porttitor_interdum_duis_accumsan_ex_iaculis_condimentum_lorem_nec_laoreet_quam_duis_blandit_euismod_eros_et_hendrerit_vivamus_vitae_tortor_ullamcorper_nulla_porta_pellentesque_sed_ut_felis_pellentesque_a_egestas_quam_integer_egestas_orci_vitae_feugiat_facilisis_class_aptent_taciti_sociosqu_ad_litora_torquent_per_conubia_nostra_per_inceptos_himenaeos_integer_dolor_mauris_viverra_vel_laoreet_lacinia_pretium_in_tellus_nulla_commodo_fermentum_blandit_curabitur_ac_arcu_vel_nisl_luctus_accumsan_maecenas_tristique_aliquet_augue_at_placerat_integer_ultrices_risus_ac_lorem_laoreet_eu_sagittis_metus_varius_nullam_id_vehicula_dolor_nunc_nec_finibus_mauris_etiam_maximus_sodales_gravida_maecenas_dapibus_volutpat_varius_etiam_ipsum_magna_finibus_eleifend_lectus_sed_consequat_dignissim_tellus_praesent_eu_mattis_odio_quis_pharetra_felis_morbi_a_turpis_nec_felis_vestibulum_vehicula_cras_in_dui_a_nisi_ultricies_euismod_ac_sed_risus_aliquam_laoreet_est_non_ex_malesuada_fermentum_in_tempor_tellus_lorem_vitae_tempor_felis_sagittis_ac_duis_eu_fermentum_enim_ut_porttitor_erat_proin_et_aliquet_tellus_duis_lobortis_mi_odio_at_vestibulum_metus_tempus_et_vestibulum_nec_lacus_risus_morbi_dignissim_lectus_odio_ac_gravida_erat_venenatis_vitae_phasellus_commodo_urna_ut_enim_cursus_non_eleifend_nulla_suscipit_cras_interdum_lorem_viverra_mauris_rutrum_nec_tempor_sem_gravida_fusce_lacinia_feugiat_ante_in_fermentum_tortor_convallis_sit_amet_aliquam_eu_enim_nec_sapien_viverra_facilisis_tempor_id_nunc"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

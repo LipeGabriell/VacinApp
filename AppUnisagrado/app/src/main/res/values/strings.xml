@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">VacinApp</string>
+    <string name="title_activity_recuperacao">recuperacao</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dados">dados</string>
+    <string name="menu">MENU</string>
+    <string name="informa_es">Informações</string>
+    <string name="todo">TODO</string>
+    <string name="recuperacao">RECUPERAÇÃO</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_integer_id_semper_lacus_a_euismod_nulla_vivamus_aliquam_sodales_est_at_viverra_ante_consequat_a_maecenas_euismod_risus_quam_id_dapibus_libero_sollicitudin_ac_donec_a_sollicitudin_magna_tempus_sodales_magna_nullam_vitae_maximus_turpis_mauris_eu_mi_in_turpis_commodo_auctor_ut_tincidunt_lectus_vestibulum_vestibulum_viverra_elit_in_sollicitudin_ut_eu_odio_sapien_morbi_lobortis_orci_non_blandit_posuere_quam_nisi_volutpat_enim_et_malesuada_mauris_augue_ut_urna_etiam_maximus_ultrices_pretium_aenean_ante_ligula_fermentum_at_accumsan_at_blandit_quis_sem_quisque_tortor_massa_iaculis_ac_malesuada_in_egestas_non_ipsum_nunc_varius_cursus_vestibulum_duis_id_neque_quis_metus_cursus_pulvinar_id_blandit_massa_duis_vitae_magna_nec_libero_tempor_sollicitudin_sit_amet_eget_tortor_sed_a_mauris_elementum_pulvinar_eros_eu_commodo_purus_nam_id_eleifend_leo_aliquam_euismod_eros_sed_blandit_malesuada_nulla_quis_arcu_a_risus_pharetra_lacinia_phasellus_eget_dolor_leo_suspendisse_lorem_velit_luctus_egestas_suscipit_vitae_tristique_non_lorem_vivamus_a_purus_quis_leo_consequat_commodo_etiam_interdum_enim_scelerisque_nunc_semper_a_sollicitudin_nulla_pellentesque_quisque_ut_ornare_ligula_ac_mattis_purus_etiam_congue_ipsum_non_viverra_pellentesque_suspendisse_et_lacus_vel_est_porttitor_interdum_duis_accumsan_ex_iaculis_condimentum_lorem_nec_laoreet_quam_duis_blandit_euismod_eros_et_hendrerit_vivamus_vitae_tortor_ullamcorper_nulla_porta_pellentesque_sed_ut_felis_pellentesque_a_egestas_quam_integer_egestas_orci_vitae_feugiat_facilisis_class_aptent_taciti_sociosqu_ad_litora_torquent_per_conubia_nostra_per_inceptos_himenaeos_integer_dolor_mauris_viverra_vel_laoreet_lacinia_pretium_in_tellus_nulla_commodo_fermentum_blandit_curabitur_ac_arcu_vel_nisl_luctus_accumsan_maecenas_tristique_aliquet_augue_at_placerat_integer_ultrices_risus_ac_lorem_laoreet_eu_sagittis_metus_varius_nullam_id_vehicula_dolor_nunc_nec_finibus_mauris_etiam_maximus_sodales_gravida_maecenas_dapibus_volutpat_varius_etiam_ipsum_magna_finibus_eleifend_lectus_sed_consequat_dignissim_tellus_praesent_eu_mattis_odio_quis_pharetra_felis_morbi_a_turpis_nec_felis_vestibulum_vehicula_cras_in_dui_a_nisi_ultricies_euismod_ac_sed_risus_aliquam_laoreet_est_non_ex_malesuada_fermentum_in_tempor_tellus_lorem_vitae_tempor_felis_sagittis_ac_duis_eu_fermentum_enim_ut_porttitor_erat_proin_et_aliquet_tellus_duis_lobortis_mi_odio_at_vestibulum_metus_tempus_et_vestibulum_nec_lacus_risus_morbi_dignissim_lectus_odio_ac_gravida_erat_venenatis_vitae_phasellus_commodo_urna_ut_enim_cursus_non_eleifend_nulla_suscipit_cras_interdum_lorem_viverra_mauris_rutrum_nec_tempor_sem_gravida_fusce_lacinia_feugiat_ante_in_fermentum_tortor_convallis_sit_amet_aliquam_eu_enim_nec_sapien_viverra_facilisis_tempor_id_nunc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id semper lacus, a euismod nulla. Vivamus aliquam sodales est, at viverra ante consequat a. Maecenas euismod risus quam, id dapibus libero sollicitudin ac. Donec a sollicitudin magna, tempus sodales magna. Nullam vitae maximus turpis. Mauris eu mi in turpis commodo auctor ut tincidunt lectus. Vestibulum vestibulum viverra elit in sollicitudin. Ut eu odio sapien. Morbi lobortis, orci non blandit posuere, quam nisi volutpat enim, et malesuada mauris augue ut urna. Etiam maximus ultrices pretium. Aenean ante ligula, fermentum at accumsan at, blandit quis sem. Quisque tortor massa, iaculis ac malesuada in, egestas non ipsum. Nunc varius cursus vestibulum. Duis id neque quis metus cursus pulvinar id blandit massa. Duis vitae magna nec libero tempor sollicitudin sit amet eget tortor. Sed a mauris elementum, pulvinar eros eu, commodo purus. Nam id eleifend leo. Aliquam euismod eros sed blandit malesuada. Nulla quis arcu a risus pharetra lacinia. Phasellus eget dolor leo. Suspendisse lorem velit, luctus egestas suscipit vitae, tristique non lorem. Vivamus a purus quis leo consequat commodo. Etiam interdum enim scelerisque nunc semper, a sollicitudin nulla pellentesque. Quisque ut ornare ligula, ac mattis purus. Etiam congue ipsum non viverra pellentesque. Suspendisse et lacus vel est porttitor interdum. Duis accumsan ex iaculis, condimentum lorem nec, laoreet quam. Duis blandit euismod eros et hendrerit. Vivamus vitae tortor ullamcorper nulla porta pellentesque sed ut felis. Pellentesque a egestas quam. Integer egestas orci vitae feugiat facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer dolor mauris, viverra vel laoreet lacinia, pretium in tellus. Nulla commodo fermentum blandit. Curabitur ac arcu vel nisl luctus accumsan. Maecenas tristique aliquet augue at placerat. Integer ultrices risus ac lorem laoreet, eu sagittis metus varius. Nullam id vehicula dolor. Nunc nec finibus mauris. Etiam maximus sodales gravida. Maecenas dapibus volutpat varius. Etiam ipsum magna, finibus eleifend lectus sed, consequat dignissim tellus. Praesent eu mattis odio, quis pharetra felis. Morbi a turpis nec felis vestibulum vehicula. Cras in dui a nisi ultricies euismod ac sed risus. Aliquam laoreet est non ex malesuada fermentum. In tempor tellus lorem, vitae tempor felis sagittis ac. Duis eu fermentum enim, ut porttitor erat. Proin et aliquet tellus. Duis lobortis mi odio, at vestibulum metus tempus et. Vestibulum nec lacus risus. Morbi dignissim lectus odio, ac gravida erat venenatis vitae. Phasellus commodo urna ut enim cursus, non eleifend nulla suscipit. Cras interdum lorem viverra mauris rutrum, nec tempor sem gravida. Fusce lacinia feugiat ante, in fermentum tortor convallis sit amet. Aliquam eu enim nec sapien viverra facilisis tempor id nunc.</string>
+    <string name="dadosCovid">DADOS COVID</string>
+    <string name="voltar">Voltar</string>
+    <string name="informacoes">Informações</string>
+    <string name="sintomas">Sintomas</string>
+    <string name="recuperaInfos">Recuperação</string>
+    <string name="vacinapp">Vacinapp</string>
+    <string name="made_by">made by:</string>
+    <string name="mateus_oliver">Mateus Oliver</string>
+    <string name="luiz_henrique">Luiz Henrique</string>
+    <string name="felipe_gabriel">Felipe Gabriel</string>
+    <string name="vitor_costa">Vitor Costa</string>
+    <string name="logo_unisagrado">Logo unisagrado</string>
+    <string name="prevencao">Prevenção</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="webgov">webGov</string>
+</resources>
