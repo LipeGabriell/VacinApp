@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".loading">
 
+
     <TextView
         android:id="@+id/titleSHADE"
         android:layout_width="wrap_content"
@@ -100,8 +101,8 @@
         android:id="@+id/imageView9"
         android:layout_width="235dp"
         android:layout_height="221dp"
-        android:layout_marginTop="228dp"
         android:contentDescription="@string/logo_unisagrado"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
