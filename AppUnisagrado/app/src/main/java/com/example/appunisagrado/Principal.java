@@ -23,7 +23,7 @@ public class Principal extends AppCompatActivity {
             informacoesButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    startActivity(new Intent(Principal.this,infos.class));;
+                    startActivity(new Intent(Principal.this, Infos.class));;
                 }
             });
 
@@ -32,7 +32,7 @@ public class Principal extends AppCompatActivity {
             noticiasButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    startActivity(new Intent(Principal.this, dados.class));;
+                    startActivity(new Intent(Principal.this, Dados.class));;
                 }
             });
 
@@ -49,7 +49,7 @@ public class Principal extends AppCompatActivity {
             mapaButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    startActivity(new Intent(Principal.this, mapa.class));
+                    startActivity(new Intent(Principal.this,MapsActivity.class));
                 }
             });
 

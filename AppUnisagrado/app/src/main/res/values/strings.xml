@@ -39,4 +39,5 @@
     <string name="atendimento_telefone">Atendimento Telefone</string>
     <string name="title_activity_mapa">mapa</string>
     <string name="mapa">Mapa</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>

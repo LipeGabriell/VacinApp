@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class infos extends AppCompatActivity {
+public class Infos extends AppCompatActivity {
 
 
     @Override
@@ -23,21 +23,21 @@ public class infos extends AppCompatActivity {
         sintomasButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(infos.this,sintomas.class));;
+                startActivity(new Intent(Infos.this, Sintomas.class));;
             }
         });
 
         recuperacaoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(infos.this,recuperacao.class));;
+                startActivity(new Intent(Infos.this, Recuperacao.class));;
             }
         });
 
         prevencaoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(infos.this,prevencao.class));;
+                startActivity(new Intent(Infos.this, Prevencao.class));;
             }
         });
 

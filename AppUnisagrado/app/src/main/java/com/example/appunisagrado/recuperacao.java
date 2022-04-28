@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class recuperacao extends AppCompatActivity {
+public class Recuperacao extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

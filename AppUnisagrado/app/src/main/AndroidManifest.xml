@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.appunisagrado" >
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,41 +16,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppUnisagrado" >
 
-        <!--
-             TODO: Before you run your application, you need a Google Maps API key.
-
-             To get one, follow the directions here:
-
-                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-
-             Once you have your API key (it starts with "AIza"), define a new property in your
-             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-        -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAVPYGDe2fuLKILfQcV9kas7-q-r-BuvFI" />
+            android:value="AIzaSyDUo4mtis_l_jtfqdIFR8x_kS-_LLi3kTo" />
 
         <activity
-            android:name=".mapa"
+            android:name=".MapsActivity"
             android:exported="false"
-            android:label="@string/title_activity_mapa" />
+            android:label="@string/title_activity_maps"
+            android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
-            android:name=".dados"
+            android:name=".Dados"
             android:exported="false"
             android:label="@string/title_activity_dados"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
-            android:name=".recuperacao"
+            android:name=".Recuperacao"
             android:exported="false"
             android:label="@string/title_activity_recuperacao"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
-            android:name=".sintomas"
+            android:name=".Sintomas"
             android:exported="false"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
-            android:name=".infos"
+            android:name=".Infos"
             android:exported="false"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
@@ -55,11 +48,11 @@
             android:exported="false"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
-            android:name=".prevencao"
+            android:name=".Prevencao"
             android:exported="false"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
-            android:name=".loading"
+            android:name=".Loading"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

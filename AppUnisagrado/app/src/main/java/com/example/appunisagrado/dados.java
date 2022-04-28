@@ -6,7 +6,7 @@ import android.webkit.WebView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class dados extends AppCompatActivity {
+public class Dados extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

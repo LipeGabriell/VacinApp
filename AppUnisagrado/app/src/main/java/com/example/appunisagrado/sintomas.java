@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class sintomas extends AppCompatActivity {
+public class Sintomas extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
