@@ -2,6 +2,7 @@ package com.example.appunisagrado;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.location.Address;
 import android.location.Location;
 import android.location.LocationListener;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -35,9 +37,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-
         googleMap.addMarker(new MarkerOptions()
                 .position(new LatLng(latitude, longitude))
                 .title("Você está aqui"));
+
     }
+
+
+
 }
