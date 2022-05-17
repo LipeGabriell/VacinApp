@@ -17,9 +17,10 @@
         android:allowBackup="true"
         android:icon="@mipmap/unisagra_app"
         android:label="@string/app_name"
+        android:screenOrientation="portrait"
         android:roundIcon="@mipmap/unisagra_app"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppUnisagrado" >
+        android:theme="@style/Theme.AppUnisagrado.NoActionBar" >
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -29,36 +30,45 @@
             android:name=".Mapa"
             android:exported="false"
             android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
             android:name=".Dados"
             android:exported="false"
             android:label="@string/title_activity_dados"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
             android:name=".Recuperacao"
             android:exported="false"
             android:label="@string/title_activity_recuperacao"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
             android:name=".Sintomas"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
             android:name=".Infos"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
             android:name=".Principal"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
             android:name=".Prevencao"
             android:exported="false"
+            android:screenOrientation="portrait"
+
             android:theme="@style/Theme.AppUnisagrado.NoActionBar" />
         <activity
             android:name=".Loading"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

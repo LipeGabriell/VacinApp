@@ -23,6 +23,7 @@ public class Principal extends AppCompatActivity {
         Button noticiasButton = (Button) findViewById(R.id.buttonNoticias);
         Button ajudaButton = (Button) findViewById(R.id.buttonAjuda);
         Button mapaButton = (Button) findViewById(R.id.buttonMapa);
+        Button sobreButton = (Button) findViewById(R.id.buttonSobre);
 
             informacoesButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -61,6 +62,13 @@ public class Principal extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     startActivity(new Intent(Principal.this,Mapa.class));
+                }
+            });
+
+            sobreButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(Principal.this,Sobre.class));
                 }
             });
 

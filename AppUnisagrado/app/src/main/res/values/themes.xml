@@ -17,8 +17,11 @@
 
     <style name="Theme.AppUnisagrado.NoActionBar">
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        @link android.content.pm.ActivityInfo#SCREEN_ORIENTATION_PORTRAIT
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="statusBarForeground">@color/vermelhoUnisagrado</item>
     </style>
 
     <style name="Theme.AppUnisagrado.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

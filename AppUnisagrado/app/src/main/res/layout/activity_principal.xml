@@ -36,10 +36,10 @@
         android:scaleX="1"
         android:scaleY="1"
         android:text="@string/menu"
-        android:translationX="1dp"
         android:textColor="#000000"
         android:textSize="75sp"
         android:textStyle="normal|bold"
+        android:translationX="1dp"
         app:autoSizeTextType="none" />
 
 <!--  Fim do menu, botões abaixo  -->
