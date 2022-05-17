@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -44,6 +45,7 @@ public class Principal extends AppCompatActivity {
                 public void onClick(View view) {
                     if (ActivityCompat.checkSelfPermission(Principal.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                         ActivityCompat.requestPermissions(Principal.this, new String[]{Manifest.permission.CALL_PHONE}, 1);
+                        Toast.makeText(Principal.this, "Aperte Novamente.", Toast.LENGTH_LONG).show();
                         return;}
 
                     else{

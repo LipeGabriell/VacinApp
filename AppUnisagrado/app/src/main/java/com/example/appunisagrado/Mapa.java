@@ -40,7 +40,7 @@ public class Mapa extends AppCompatActivity {
         } else if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
                 ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
                 ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_NETWORK_STATE) != PackageManager.PERMISSION_GRANTED){
-            Toast.makeText(Mapa.this, "LOCALIZAÇÃO NEGADA!.", Toast.LENGTH_LONG).show();
+            Toast.makeText(Mapa.this, "Permissão Negada!.", Toast.LENGTH_LONG).show();
 
         }
 
