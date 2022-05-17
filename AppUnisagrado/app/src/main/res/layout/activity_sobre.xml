@@ -1,57 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Sobre">
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nome1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="100dp"
-        android:text="Autores:" />
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/felipe_gabriel_ramires_sanches" />
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nome2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="100dp"
-        android:text="Autores:" />
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/jose_paulo_dassie_felippi" />
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nome3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="100dp"
-        android:text="Autores:" />
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/luiz_henrique_grossi_vieira_urives" />
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nome4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="100dp"
-        android:text="Autores:" />
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/mateus_oliver_pierim" />
+
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nome5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/vitor_costa_ferreira" />
+
+    <TextView
+        android:id="@+id/autores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="100dp"
-        android:text="Autores:" />
+        android:layout_marginTop="120dp"
+        android:text="@string/autores" />
+
+    <TextView
+        android:id="@+id/fontes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/fontes" />
+
+    <TextView
+        android:id="@+id/fontes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="280dp"
+        android:linksClickable="true"
+        android:text="@string/https_www_gov_br_saude_pt_br_coronavirus" />
+
+    <TextView
+        android:id="@+id/fontes3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="310dp"
+        android:linksClickable="true"
+        android:text="@string/https_covid_saude_gov_br" />
+
 </RelativeLayout>

@@ -15,7 +15,5 @@ public class Sintomas extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.textoSintomas);
         textView.setMovementMethod(new ScrollingMovementMethod());
 
-
-
     }
 }
