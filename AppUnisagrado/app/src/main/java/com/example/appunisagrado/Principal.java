@@ -71,12 +71,5 @@ public class Principal extends AppCompatActivity {
                     startActivity(new Intent(Principal.this,Sobre.class));
                 }
             });
-
-
-
     }
-
-
-
-
 }
