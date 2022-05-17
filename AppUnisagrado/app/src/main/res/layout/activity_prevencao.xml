@@ -8,7 +8,7 @@
     <TextView
         android:id="@+id/titlePrevencao"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="50dp"
@@ -25,19 +25,19 @@
     <TextView
         android:id="@+id/titlePrevencaoSHADE"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_centerHorizontal="true"
         android:contentDescription="@string/prevencao"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/prevencao"
         android:textAlignment="center"
-        android:translationX="1dp"
         android:textColor="#000000"
         android:textSize="60sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:translationX="1dp" />
 
     <TextView
         android:id="@+id/textoPrevencao"

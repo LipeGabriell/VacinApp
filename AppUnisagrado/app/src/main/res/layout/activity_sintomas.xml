@@ -19,7 +19,7 @@
     <TextView
         android:id="@+id/titleSintomas"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="52dp"
@@ -36,7 +36,7 @@
     <TextView
         android:id="@+id/titleSintomasShade"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
