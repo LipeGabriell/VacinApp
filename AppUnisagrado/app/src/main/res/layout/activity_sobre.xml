@@ -8,116 +8,16 @@
 
 
     <TextView
-        android:id="@+id/nome1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="120dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/felipe_gabriel_ramires_sanches" />
-
-    <TextView
         android:id="@+id/nome2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="317dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/jose_paulo_dassie_felippi" />
-
-    <TextView
-        android:id="@+id/nome3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="160dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/luiz_henrique_grossi_vieira_urives" />
-
-    <TextView
-        android:id="@+id/nome4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="180dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/mateus_oliver_pierim" />
-
-    <TextView
-        android:id="@+id/nome5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="200dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/vitor_costa_ferreira" />
-
-    <TextView
-        android:id="@+id/autores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="120dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/autores" />
-
-    <TextView
-        android:id="@+id/fontes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="340dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/fontes" />
-
-    <TextView
-        android:id="@+id/orientador"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="250dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/orientador" />
-
-    <TextView
-        android:id="@+id/orienta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="250dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="@string/prof_me_vinicius_santos_andrade" />
-
-    <TextView
-        android:id="@+id/fontes2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="340dp"
-        android:autoLink="web"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:linksClickable="true"
-        android:text="@string/https_www_gov_br_saude_pt_br_coronavirus" />
 
     <TextView
         android:id="@+id/fontes3"
@@ -126,37 +26,132 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="527dp"
         android:autoLink="web"
         android:fontFamily="sans-serif-condensed-medium"
         android:linksClickable="true"
         android:text="@string/https_covid_saude_gov_br" />
 
+    <TextView
+        android:id="@+id/fontes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="507dp"
+        android:autoLink="web"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:linksClickable="true"
+        android:text="@string/https_www_gov_br_saude_pt_br_coronavirus" />
+
+    <TextView
+        android:id="@+id/fontes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="507dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/fontes" />
+
+    <TextView
+        android:id="@+id/orienta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="417dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/prof_me_vinicius_santos_andrade" />
+
+    <TextView
+        android:id="@+id/orientador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="417dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/orientador" />
+
+    <TextView
+        android:id="@+id/nome5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="377dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/vitor_costa_ferreira" />
+
+    <TextView
+        android:id="@+id/nome4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="357dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/mateus_oliver_pierim" />
+
+    <TextView
+        android:id="@+id/nome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="337dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/luiz_henrique_grossi_vieira_urives" />
+
+    <TextView
+        android:id="@+id/autores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="297dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/autores" />
+
+    <TextView
+        android:id="@+id/nome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="297dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/felipe_gabriel_ramires_sanches" />
+
     <ImageView
         android:id="@+id/unilogo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="1600dp"
+        android:layout_height="1600dp"
+        android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
         android:layout_marginTop="610dp"
         android:contentDescription="@string/logo_do_app"
-        app:srcCompat="@mipmap/unisagra_app_foreground" />
+        app:srcCompat="@mipmap/logo_curso123_foreground" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="1dp"
         android:contentDescription="@string/logo_do_app"
-        app:srcCompat="@mipmap/vacinapp_redondo_foreground" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="500dp"
-        android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-77dp"
-        android:contentDescription="Logo ciência da computação"
-        app:srcCompat="@mipmap/logo_curso1_foreground" />
+        app:srcCompat="@mipmap/unisagra_app_foreground" />
 
 </RelativeLayout>
