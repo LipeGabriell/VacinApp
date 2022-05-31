@@ -52,4 +52,7 @@
     <string name="fontes">Fontes:</string>
     <string name="https_www_gov_br_saude_pt_br_coronavirus">https://www.gov.br/saude/pt-br/coronavirus</string>
     <string name="https_covid_saude_gov_br">https://covid.saude.gov.br</string>
+    <string name="logo_do_app">logo do app</string>
+    <string name="prof_me_vinicius_santos_andrade">Prof. Me. Vinicius Santos Andrade</string>
+    <string name="orientador">Orientador:</string>
 </resources>

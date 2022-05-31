@@ -8,13 +8,13 @@
 
     <ImageView
         android:id="@+id/unisalogo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
         android:layout_marginTop="600dp"
-        android:contentDescription="Logo Unisagrado"
-        app:srcCompat="@mipmap/unisagra_app_foreground" />
+        android:layout_marginBottom="22dp"
+        android:contentDescription="Logo App"
+        app:srcCompat="@mipmap/vacinapp_redondo_foreground" />
 
     <TextView
         android:id="@+id/titleRecuperacaoSHADE"
