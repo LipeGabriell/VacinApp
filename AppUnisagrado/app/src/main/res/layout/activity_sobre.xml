@@ -132,6 +132,16 @@
         android:layout_marginTop="297dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/felipe_gabriel_ramires_sanches" />
+    <TextView
+        android:id="@+id/curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Linguagem De Programação I." />
 
     <ImageView
         android:id="@+id/unilogo"
@@ -150,7 +160,7 @@
         android:layout_height="200dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="50dp"
         android:contentDescription="@string/logo_do_app"
         app:srcCompat="@mipmap/unisagra_app_foreground" />
 
