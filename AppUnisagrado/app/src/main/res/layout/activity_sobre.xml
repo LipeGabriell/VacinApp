@@ -150,4 +150,13 @@
         android:contentDescription="@string/logo_do_app"
         app:srcCompat="@mipmap/vacinapp_redondo_foreground" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-77dp"
+        android:contentDescription="Logo ciência da computação"
+        app:srcCompat="@mipmap/logo_curso1_foreground" />
+
 </RelativeLayout>
